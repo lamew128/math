@@ -20,8 +20,3 @@ class Player
     @life = @life - 1
   end
 end
-
-p = Player.new("Player 1")
-puts p.name
-p.wrong
-puts p.life
